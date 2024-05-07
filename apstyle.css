@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(151, 145, 145);
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+
+
+}
+.apply{
+    max-width: 500px;
+    padding: 18px; 
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 40px;
+    box-shadow:  4px 3px 5px rgb(1, 1, 1,0.1);
+    border-radius: 10px;
+}
+.title_small{
+    font-size: 18px;
+}
+.form-container{
+    display: grid;
+    grid-template-columns: repeat auto-fit, minmax(200px,1fr);
+    gap: 20px;
+}
+.form_control{
+    display: flex;
+    direction: row;
+}

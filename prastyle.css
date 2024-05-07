@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    min-height: 100vh;
+    /* background-image:url("../image/treeim.jpg"); */
+    background-image: linear-gradient(rgba(53, 59, 18, 0.5), #445041), url("../image/treeim.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+h2 {
+    margin-right: 200px;
+    color: rgb(243, 112, 6);
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 58px;
+
+}
+
+nav ul li {
+    list-style: none;
+    padding-left: 30px;
+
+}
+
+nav ul li a {
+    color: #f7f3f3fa;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight:900;
+
+}
+
+nav ul li a:hover {
+    color: rgb(192, 99, 99);
+    font-weight: bold;
+}
+
+.bttn {
+    background-color: rgb(255, 174, 0);
+    padding: 8px 10px;
+    color: white;
+    border-radius: 6px;
+    font-size: 13px;
+    margin-block: 10px;
+}
+
+.bttn:hover {
+    background-color: aqua;
+    transition: 0.5s ease;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.search input {
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    margin: 0 16px 0 54px;
+    padding: 0 15px;
+    background-color: rgb(37, 36, 36);
+    border: 1px solid rgb(255, 94, 0);
+    color: white;
+
+
+}
+
+.content {
+
+    width: 1200px;
+    height:auto;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    position: relative;
+}
+
+span {
+    color: rgb(255, 123, 0);
+}
+
+.content .para {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1 {
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn {
+    width: 160px;
+    height: 40px;
+    background: rgb(255, 115, 0);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+.form{
+    width: 250px;
+    height: 400px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 200px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(255, 102, 0);
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    
+}
+.form input{
+    width: 200px;
+    height: 35px;
+    background: transparent;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    border-left: none;
+    font-family: sans-serif;
+    border-bottom: 1px solid rgb(255, 166, 0);
+    border-top: none;
+    border-right: none;
+
+    
+
+}
+.btn{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(255, 115, 0);
+   
+    padding:  10px 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+.btn a{
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: white;
+
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: rgb(255, 136, 0);
+
+}
+.li{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icon{
+
+display: flex;
+justify-content: space-evenly;
+}
